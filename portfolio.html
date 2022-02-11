@@ -6,173 +6,193 @@
     <meta name="description" content="Разработка веб-сайтов" />
     <title>Портфолио</title>
   </head>
+
   <body>
     <!--Шапка страницы-->
-    <header>
-      <a href="/">
-        <span>WebStudio</span>
+    <header class="header">
+      <a class="logo-link" href="/">
+        <span class="logo">Web</span> <span class="logo-header">Studio</span>
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">Студия</a>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="nav-item">
+            <a class="nav-link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+
+      <ul class="contacts-header-list">
+        <li class="contacts-header-item">
+          <a class="contacts-header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contacts-header-item">
+          <a class="contacts-header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
+
     <main>
-      <section>
-        <h1 hidden>Наши проекты</h1>
-        <!--Фильтр-->
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <!--Фильтр-->
+      <section class="radio-btns">
+        <ul class="radio-btns-list">
+          <li class="radio-btns-item"><button type="button">Все</button></li>
+          <li class="radio-btns-item"><button type="button">Веб-сайты</button></li>
+          <li class="radio-btns-item"><button type="button">Приложения</button></li>
+          <li class="radio-btns-item"><button type="button">Дизайн</button></li>
+          <li class="radio-btns-item"><button type="button">Маркетинг</button></li>
         </ul>
-        <!--Реализованные проекты-->
-        <ul>
-          <li>
-            <a href="">
+      </section>
+
+      <!--Реализованные проекты-->
+      <section class="portfolio-projects">
+        <h1 hidden>Наши проекты</h1>
+
+        <ul class="portfolio-projects-list">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic1.jpg"
                 alt="На ноутбуке открыта страница веб-сайта."
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="portfolio-projects-subtitle">Технокряк</h2>
+              <p class="portfolio-projects-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic2.jpg"
                 alt="Два игрока из разных баскетбольных команд борются за мяч."
                 width="370"
                 height="294"
               />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <h2 class="portfolio-projects-subtitle">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-projects-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic3.jpg"
                 alt="Лого ресторана с рыбой на главном фоне."
                 width="370"
                 height="294"
               />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <h2 class="portfolio-projects-subtitle">Ресторан Seafood</h2>
+              <p class="portfolio-projects-text">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href="">
-              <img src="./images/portfolio_pic4.jpg" alt="Наушники." width="370" height="294" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
-                src="./images/portfolio_pic5.jpg"
-                alt="Две коробки: одна большая белая, другая - розовая и поменьше."
+                class="portfolio-projects-pic"
+                src="./images/portfolio_pic4.jpg"
+                alt="Наушники."
                 width="370"
                 height="294"
               />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <h2 class="portfolio-projects-subtitle">Проект Prime</h2>
+              <p class="portfolio-projects-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
+              < class="portfolio-projects-pic" src="./images/portfolio_pic5.jpg" alt="Две коробки:
+              одна большая белая, другая - розовая и поменьше." width="370" height="294" />
+              <h2 class="portfolio-projects-subtitle">Проект Boxes</h2>
+              <p class="portfolio-projects-text">Приложение</p>
+            </a>
+          </li>
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic6.jpg"
                 alt="Страница сайта на мониторе комьютера."
                 width="370"
                 height="294"
               />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="portfolio-projects-subtitle">Inspiration has no Borders</h2>
+              <p class="portfolio-projects-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic7.jpg"
                 alt="Раскрытая книга."
                 width="370"
                 height="294"
               />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="portfolio-projects-subtitle">Издание Limited Edition</h2>
+              <p class="portfolio-projects-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic8.jpg"
                 alt="Бирка с логотипом."
                 width="370"
                 height="294"
               />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="portfolio-projects-subtitle">Проект LAB</h2>
+              <p class="portfolio-projects-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfolio-projects-item">
+            <a class="portfolio-projects-link" href="">
               <img
+                class="portfolio-projects-pic"
                 src="./images/portfolio_pic9.jpg"
                 alt="Руки человека, печатающего на ноутбуке. На экране страница разработанного сайта."
                 width="370"
                 height="294"
               />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="portfolio-projects-subtitle">Growing Business</h2>
+              <p class="portfolio-projects-text">Приложение</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <!--Подвал страницы-->
-      <a href="/">
-        <span>WebStudio</span>
+
+    <!--Подвал страницы-->
+    <footer class="footer">
+      <a class="logo-link" href="/">
+        <span class="logo">Web</span> <span class="logo-footer">Studio</span>
       </a>
-      <address>
-        <ul>
-          <li>
+
+      <address class="contacts-footer">
+        <ul class="contacts-footer-list">
+          <li class="contacts-footer-item">
             <a
+              class="contacts-footer-address"
               href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+26,+Киев,+Украина,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru"
               target="_blank"
               rel="noreferrer noopener nofollow"
               >г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="contacts-footer-item">
+            <a class="contacts-footer-mail" href="mailto:info@devstudio.com">info@devstudio.com </a>
           </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="contacts-footer-item">
+            <a class="contacts-footer-tel" href="tel:+380961111111">+38 096 111 11 11 </a>
           </li>
         </ul>
       </address>
