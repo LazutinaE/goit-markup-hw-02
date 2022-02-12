@@ -56,6 +56,10 @@ body {
   background-color: var(--secondary-bg--mode-dark);
 }
 
+.portfolio-projects {
+  background-color: var(--primary-bg--mode-light);
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -90,6 +94,10 @@ body {
 }
 .nav-link {
   color: inherit;
+}
+
+.nav-list .link.current {
+  color: var(--accent-cl);
 }
 
 .nav-link:hover,
@@ -180,4 +188,35 @@ body {
 .contacts-footer-link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.radio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  color: var(--secondary-txt--mode-dark);
+  background-color: var(--secondary-bg--mode-dark);
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+  color: var(--main-txt--mode-light);
+  background-color: var(--accent-cl);
+}
+
+.portfolio-projects-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-txt--mode-dark);
+}
+.portfolio-projects-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--main-txt--mode-dark);
 }
