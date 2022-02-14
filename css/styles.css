@@ -13,7 +13,6 @@
   --main-txt--mode-dark: #757575;
 
   /* Светлая тема фона*/
-  --primary-bg--mode-light: #e5e5e5;
   --secondary-bg--mode-light: #ffffff;
 
   /* Темная тема фона*/
@@ -47,17 +46,8 @@ body {
   background-color: var(--primary-bg--mode-dark);
 }
 
-.features,
-.projects {
-  background-color: var(--primary-bg--mode-light);
-}
-
 .team {
   background-color: var(--secondary-bg--mode-dark);
-}
-
-.portfolio-projects {
-  background-color: var(--primary-bg--mode-light);
 }
 
 .logo {
@@ -140,6 +130,7 @@ body {
 
   cursor: pointer;
 }
+
 .features-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -187,7 +178,7 @@ body {
 
 .contacts-footer-link {
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--secondary-txt--mode-light);
 }
 
 .radio-btn {
